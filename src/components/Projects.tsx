@@ -1,6 +1,9 @@
-
 import React from 'react';
 import { Github, ArrowUp } from 'lucide-react';
+import Photo1 from '../components/images/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.avif';
+import Photo2 from '../components/images/maxresdefault (1).jpg';
+import Photo3 from '../components/images/online-pharmacy-website-design-concept-flat-modern-medicine-illustration-for-website-design-banner-landing-page-vector.jpg';
+import Photo4 from '../components/images/images (2).jpeg';
 
 const Projects = () => {
   const projects = [
@@ -8,7 +11,7 @@ const Projects = () => {
       title: 'MWU SHOP',
       description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, and admin panel.',
       tech: ['React', 'Node js', 'Express', 'MySQL'],
-      image: '../../public/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.avif',
+      image: Photo1, // Use the imported image directly
       github: 'https://github.com/abdi-a/MWU-SHOP',
       live: 'https://mwu-shop.web.app'
     },
@@ -16,7 +19,7 @@ const Projects = () => {
       title: 'UNIVERSITY MANAGEMENT SYSTEM',
       description: 'Built a comprehensive web application to manage student enrollment, courses, grades, and faculty information for streamlined academic administration enabled role-based dashboards for students, instructors, and admins with features like course registration, grade submission, and timetable management.',
       tech: ['React', 'Node js', 'Express','MySQL'],
-      image: '../../public/maxresdefault (1).jpg',
+      image: Photo2, // Use the imported image directly
       github: 'https://github.com/abdi-a/madda-walabu-university-managemgnt-system',
       live: '#'
     },
@@ -24,7 +27,7 @@ const Projects = () => {
       title: 'PHARMACY WEBSITE',
       description: 'Developed a web-based system to manage medicine inventory, sales, and customer prescriptions for efficient pharmacy operations. ',
       tech: ['HTML', 'CSS', 'Javascript'],
-      image: '../../public/online-pharmacy-website-design-concept-flat-modern-medicine-illustration-for-website-design-banner-landing-page-vector.jpg',
+      image: Photo3, // Use the imported image directly
       github: 'https://github.com/abdi-a/Pharmacy-website',
       live: 'https://clinquant-clafoutis-cfaacc.netlify.app/'
     },
@@ -32,7 +35,7 @@ const Projects = () => {
       title: 'LIBRARY MANAGEMENT SYSTEM',
       description: 'Designed and developed a web-based system to manage book inventory, user registration, and borrowing/return operations for libraries.',
       tech: ['HTML', 'CSS', 'Javascript'],
-      image: '../../public/images (2).jpeg',
+      image: Photo4, // Use the imported image directly
       github: 'https://github.com/abdi-a/School-library-management-system',
       live: 'https://profound-valkyrie-25da6a.netlify.app/'
     }
@@ -81,6 +84,8 @@ const Projects = () => {
                 <div className="flex gap-4">
                   <a
                     href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors duration-200"
                   >
                     <Github size={20} />
@@ -88,6 +93,8 @@ const Projects = () => {
                   </a>
                   <a
                     href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-400 hover:text-blue-300 transition-colors duration-200"
                   >
                     <ArrowUp size={20} />
