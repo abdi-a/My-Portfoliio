@@ -47,14 +47,14 @@ const Contact = () => {
 
             <div className="space-y-4">
               <a
-                href="abdisaawel82@gmail.com.com"
+                href="#"
                 className="flex items-center gap-4 text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 <Mail size={24} />
              abdisaawel82@gmail.com
               </a>
               <a
-                href=" +251938890645"
+                href="#"
                 className="flex items-center gap-4 text-gray-300 hover:text-blue-400 transition-colors duration-200"
               >
                 <Phone size={24} />

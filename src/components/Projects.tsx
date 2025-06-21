@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: 'MWU SHOP',
       description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, shopping cart, and admin panel.',
-      tech: ['React', 'Node js', 'Express', 'MySQL'],
+      tech: ['React', 'Node js', 'Express', 'MySQL','Firebase'],
       image: Photo1, // Use the imported image directly
       github: 'https://github.com/abdi-a/MWU-SHOP',
       live: 'https://mwu-shop.web.app'

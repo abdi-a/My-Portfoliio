@@ -36,7 +36,7 @@ const Hero = () => {
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
             Passionate about creating innovative web solutions with modern technologies. 
-            Specializing in React, Node.js.
+            Specializing in React, Node.js,Mongodb.
           </p>
         </div>
 

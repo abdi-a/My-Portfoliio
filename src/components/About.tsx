@@ -2,11 +2,19 @@ import React from 'react';
 const About = () => {
   const skills = [
     { name: 'HTML', level: 88 },
-    { name: 'CSS', level: 85 },
-    { name: 'Javascript', level: 70 },
+    { name: 'CSS/Bootstrap/Tailwind CSS', level: 85 },
+    // { name: 'Bootstrap', level: 85 },
+    // { name: 'Tailwind CSS', level: 85 },
+    { name: 'Javascript/Typescript', level: 70 },
+    // { name: 'JQuery', level: 70 },
+    // { name: 'Typescript', level: 70 },
     { name: 'React', level: 80 },
-    { name: 'Node.js/Express', level: 70 },
-    { name: 'MySQL/MongoDB', level: 75 },
+    // { name: 'API', level: 80 },
+    { name: 'Git/github', level: 70 },
+    { name: 'Node js/Express', level: 70 },
+    { name: 'MySQL/MongoDB/Firebaase', level: 75 },
+    // { name: 'MongoDB', level: 75 },
+    // { name: 'Wordpress', level: 75 },
   ];
 
   const handleDownloadResume = () => {
@@ -35,10 +43,10 @@ const About = () => {
           <div>
             <h3 className="text-2xl font-bold text-white mb-6">My Story</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
-            Hi there! I'm Abdisa Awel, a passionate Computer Science student at Madda Walabu University, diving deep into the world of full-stack development.
+            Hi there! I'm Abdisa Awel, a passionate third year Computer Science student at Madda Walabu University, diving deep into the world of full-stack development.
 
 My journey into coding began when I wanted to create solutions that bridge technology and everyday life. Since then, I’ve been hooked on turning ideas into functional, digital experiences.
-As a second-year student, I’m constantly learning—whether it’s frontend (HTML, CSS, JavaScript, React) or backend (Node.js, databases) technologies.  
+As a second-year student, I’m constantly learning frontend (HTML, CSS, JavaScript, React) and backend (Node.js, databases) technologies.  
             </p>
             <p className='text-white mb-6 leading-relaxed'>
             I’ve worked on projects,These experiences have taught me the power of clean code and user-centric design.
